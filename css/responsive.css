@@ -1,0 +1,103 @@
+@media screen and (max-width: 920px){
+
+    .desc-card {
+        width: 30%;
+        padding: 1.2rem;
+        font-weight: 500;
+        line-height: 1.5rem;
+    }
+
+    .desc-card p {
+        font-size: 1.3rem;
+    }
+
+    .desc-card p span {
+        font-size: 1rem;
+    }
+
+    .down-part {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 660px)  and (min-height: 800px){
+    .down-part {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        width: 100%;
+        align-items: center;
+        height: 100%;
+    }
+
+    .desc-card {
+        width: 40%;
+    }
+    .input-section #form-sub {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    #form-sub button {
+        height: 2.3rem;
+        width: 70px;
+    }
+    .input-section {
+        justify-content: space-between;
+    }
+    #form-sub input {
+        min-width: 23rem;
+    }
+    .background {
+        /* background-image: url(../Assets/pexels-zetong-li-1784577.jpg); */
+        /* height: 125vh; */
+    }
+}
+
+@media screen and (max-width: 500px ){
+    #form-sub input {
+        min-width: 19rem;
+    }
+
+    .top-part {
+        padding: 20px;
+        border-radius: 10px;
+        font-weight: 500;
+        font-size:medium;
+        width: 90%;
+    }
+    .desc-card {
+        width: 80%;
+    }
+
+    .down-part {
+        flex-direction: column;
+        gap: 1rem;margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #form-sub input {
+        min-width: 14rem;
+        border-radius: 17px;
+    }
+    
+    #form-sub button {
+        width: 50px;
+        font-size: small;
+        border-radius: 17px;
+    }
+}
+
+
+@media screen and (max-height: 700px) and (max-width: 400px){
+    .background {
+        height: 130vh;
+    }
+}

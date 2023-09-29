@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: lightgreen;
+}
+
+.background {
+    background-image: url(../Assets/pexels-binyamin-mellish-108941.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    top: 0;
+}
+
+#flexSwitchCheckReverse {
+    position: absolute;
+    top: 7px;
+}
+
+#switch {
+    position: relative;
+    right: 29px;
+    top: 3px;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.main-content {
+    height: 100%;
+}
+
+.header {
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 0 #888, -2px 0 #888, 0 2px #888, 0 -2px #888,
+        1px 1px #888, -1px -1px #888, 1px -1px #888, -1px 1px #888;
+    margin-top: -1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    height: 0px;
+    width: 120px;
+    border: 2px solid rgb(255, 140, 0);
+    border-radius: 80%
+}
+
+/* **** */
+.input-section {
+    display: flex;
+    width: 100%;
+    height: 6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-section #form-sub {
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#form-sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#form-sub input {
+    height: 2.2rem;
+    min-width: 25rem;
+    margin-right: .5rem;
+    border-radius: 32px;
+    padding: 0 1rem;
+}
+
+
+#form-sub button {
+    height: 2.65rem;
+    width: 100px;
+    border-radius: 32px;
+    color: rgb(75, 6, 105);
+    font-weight: 600;
+}
+
+
+
+/* **** */
+
+
+.specification {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 30vh;
+}
+
+/* Top part */
+
+.top-part {
+    border: none;
+    padding: 30px;
+    text-align: center;
+    background-color: #b9eef93e;
+    /* backdrop-filter: blur(5px); */
+    color: #330430;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: large;
+    margin: 20px;
+
+}
+
+.top-part h2 span {
+    color: rgb(202, 61, 6);
+    font-family: 'Inconsolata', monospace;
+}
+
+
+
+/* Button part */
+
+
+.down-part {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* min-height: 15vh; */
+    margin-top: 2rem;
+}
+
+.desc-card {
+    width: 25%;
+    padding: 3rem;
+    border: none;
+    text-align: center;
+    background-color: #efa6ef47;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: large;
+    line-height: 2rem;
+    display: flex;
+    align-items: center;justify-content: center;
+}
+
+.desc-card p {
+    font-size: 1.5rem;
+    color: #330430;
+}
+
+.desc-card p span {
+    color: #d2faf0fb;
+    font-size: 1.2rem;
+}
