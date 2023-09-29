@@ -1,6 +1,6 @@
 // Define global variables
 let flag = false; // Flag for checking the toggle button state
-const apiKey = 'f2e339554c7b35f1118c3b534c55f9d0'; // Replace with your OpenWeatherMap API key
+const apiKey = 'f2e339554c7b35f1118c3b534c55f9d0'; 
 
 // DOM elements
 const CheckReverse = document.getElementById("flexSwitchCheckReverse");
