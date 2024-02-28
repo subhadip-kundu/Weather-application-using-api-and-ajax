@@ -2,6 +2,13 @@
 
 The Weather App is a web application that provides users with up-to-date weather information for a specified location. It leverages the OpenWeatherMap API and the OpenStreetMap Nominatim API to retrieve current weather data and location coordinates using AJAX for asynchronous data fetching.
 
+## Preview
+#### With °F
+![image](https://github.com/subhadip-kundu/Weather-application-using-api-and-ajax/assets/124190254/e7dd989a-4382-4ff3-834e-b6fa91c20c8b)
+#### With °C
+![image](https://github.com/subhadip-kundu/Weather-application-using-api-and-ajax/assets/124190254/0134e3b6-8099-4561-b02a-f0268da4a499)
+
+
 ### How It Works
 
 1. **Search for Weather Information**: Users can input the name of a location they are interested in (e.g., a city or town) into the search input field provided on the app's interface.
